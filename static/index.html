@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>AWS Practice</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/freelancer.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Practice #4</a>
+      </div>
+      <div class="pull-right" style="text-align:center">
+        <h4 id="username" style="color:white; display: none;">Ronaldo</h4>
+        <button type="submit" class="btn btn-success" id="signin">Sign In</button>
+        <button type="submit" class="btn btn-info" id="signout" style="display:none">Sign Out</button>
+      </div>
+    </nav>
+      
+    <!-- Header -->
+    <header class="masthead bg-primary text-white text-center">
+      <div class="alert alert-info" role="alert" style="margin-top: -80px;margin-bottom: 80px; display: none" id="alert">
+        Published, please reload the page to see changes
+      </div>
+      <div class="container">
+        <form class="">
+          <div class="form-row align-items-center">
+              <label for="textInput" class="col-auto" style="margin-left: auto">Text to process: </label>
+              <div class="col-sm-6">
+                <textarea id="textInput" rows="2" class="form-control mb-2 c" placeholder="Enter text" maxlength="100" disabled></textarea>
+              </div>
+              <div class="col-auto" style="margin-right: auto">
+                <button type="submit" class="btn btn-primary mb-2 c" id="submitbtn" disabled>Submit</button>
+              </div>
+          </div> 
+        </form>   
+        <!-- <img class="img-fluid mb-5 d-block mx-auto" src="img/docker.png" alt=""> -->
+        <!-- <h2 class="text-uppercase mb-0">The Page have been seen times</h2>
+        <hr class="star-light">
+        <h2 class="font-weight-light mb-0">Powered by Docker            <a class="fab fa-docker" id="check"></a></h2> -->
+      </div>
+    </header>
+
+    <section class="" id="list" style="height: 55vh">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-secondary mb-0">Texts to Speech</h2>
+        <hr class="star-dark   mb-5">
+      </div>
+      <div class="container">
+        <table class="table" style="text-align:center">
+          <thead>
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col">File</th>
+              <th scope="col">Link</th>
+            </tr>
+          </thead>
+          <tbody id="tablebody">
+            
+          </tbody>
+        </table>
+      </div>
+    </section>
+ 
+    <div class="copyright py-4 text-center text-white">
+      <div class="container">
+        <small>Copyright &copy; TramboCloud 2018</small>
+      </div>
+    </div>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-to-top d-lg-none position-fixed ">
+      <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+        <i class="fa fa-chevron-up"></i>
+      </a>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+    <script src="js/cognito_auth.js"></script>
+  </body>
+
+</html>
